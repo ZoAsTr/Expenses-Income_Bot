@@ -1,0 +1,34 @@
+# Environment
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel exports
+exports/
+*.xlsx
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
